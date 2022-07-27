@@ -10,10 +10,12 @@ public class PlayerMovement : MonoBehaviour
     public float sidewaysForce = 2000f;
 
     //Here is the idea there are three different places that our car can be. So an int will hold the different values that the car can be
-    private int[] lane = {-4,0,4};
+    public int[] lane = {-4,0,4};
     public int lanePlace = 1;
     private int laneMax; 
     public bool smoothedMovement = false;
+    public GameObject carPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,10 @@ public class PlayerMovement : MonoBehaviour
                 smoothedMovement = false;
                 //Debug.Log(lane[lanePlace].ToString());
             }
+        }
+        if (Input.GetKeyDown("s"))
+        {
+            FindObjectOfType<GameManager>().spawnCar();
         }
     }
 

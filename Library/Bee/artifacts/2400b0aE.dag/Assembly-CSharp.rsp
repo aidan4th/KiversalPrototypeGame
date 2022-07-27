@@ -351,6 +351,8 @@
 "Assets/Scripts/PlayerCollision.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Score.cs"
+"Assets/Scripts/carDriving.cs"
+"Assets/Scripts/fishBone.cs"
 "Assets/Scripts/gobble.cs"
 "Assets/Scripts/killYourSelf.cs"
 "Assets/Scripts/playerCamera.cs"
@@ -388,7 +390,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/fishBone.cs"
 -langversion:9.0
 
 /deterministic

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4362399207236521096}
   - component: {fileID: 4362399207236521095}
   - component: {fileID: 4362399207236521094}
+  - component: {fileID: 3865454180424396485}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -132,8 +133,10 @@ MonoBehaviour:
   rb: {fileID: 4362399207236521096}
   forwardForce: 8000
   sidewaysForce: 120
+  lane: fcffffff0000000004000000
   lanePlace: 1
   smoothedMovement: 0
+  carPrefab: {fileID: 8712877670895306916, guid: ef17e6286927a51988f4951941466666, type: 3}
 --- !u!114 &4362399207236521094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +151,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 4362399207236521095}
   deathSound: {fileID: 8300000, guid: 603f051bdda9f2e4e85ca5ebcececfdf, type: 3}
+--- !u!95 &3865454180424396485
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362399207236521101}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 813e40250a4b86342aa7ed5ac5906f4a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &4868484465949149785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -169,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe3125bc2e932445827149ef4cf8111, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.33999768
+      value: -0.425
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fe3125bc2e932445827149ef4cf8111, type: 3}
       propertyPath: m_LocalPosition.z
@@ -215,6 +238,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.362
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 7fe3125bc2e932445827149ef4cf8111, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 813e40250a4b86342aa7ed5ac5906f4a, type: 2}
     - target: {fileID: 13700000, guid: 7fe3125bc2e932445827149ef4cf8111, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
