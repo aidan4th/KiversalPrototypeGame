@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1098176008047990093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1828100832458614617, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715728, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715732, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_Name
+      value: ObstacleTrashBin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715734, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8671644414232715734, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 77299457c3a45aa719db1f4cc1aeb0c1, type: 2}
+    - target: {fileID: 8671644414232715735, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 7006727c2022b8a40a7242f30b4df1a0, type: 3}
+    m_RemovedComponents:
+    - {fileID: 8671644414232715733, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+--- !u!1 &8604795472182899865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8671644414232715732, guid: 16568de845cf9038cad60a61646f82ac, type: 3}
+  m_PrefabInstance: {fileID: 1098176008047990093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1277125664
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8604795472182899865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 7006727c2022b8a40a7242f30b4df1a0, type: 3}
